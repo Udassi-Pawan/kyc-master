@@ -136,11 +136,18 @@ function GetJwt() {
         </Typography>
         <Typography variant={"h6"} fontFamily={"Roboto"}>
           Get your authenticated identity and credit score now.
-        </Typography>let curAccount;
+        </Typography>
 
         <Typography textAlign={"center"} variant={"h6"} fontFamily={"Roboto"}>
-          Copy the generated KYC pass and submit it at the exchange to unlock
-          authenticated features.
+          Copy the generated KYC pass and submit it at the{" "}
+          <a
+            target="_blank"
+            href="https://exchange-jy9p.onrender.com/centralised/kyc"
+          >
+            {" "}
+            exchange{" "}
+          </a>{" "}
+          to unlock authenticated features.
         </Typography>
         <Stack spacing={2} direction={"row"} alignItems={"center"}>
           <Input inputRef={name} placeholder="name"></Input>
